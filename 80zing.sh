@@ -167,8 +167,8 @@ Nodes:
   -
     PanelType: "V2board" # Panel type: SSpanel, V2board, PMpanel, Proxypanel
     ApiConfig:
-      ApiHost: "https://zingfast.io/"
-      ApiKey: "tuyetngakmazazfcfvandoan"
+      ApiHost: "https://cloudfly.me/"
+      ApiKey: "admin@vankhanh4g"
       NodeID: 1
       NodeType: V2ray # Node type: V2ray, Trojan, Shadowsocks, Shadowsocks-Plugin
       Timeout: 30 # Timeout for the api request
@@ -203,8 +203,8 @@ Nodes:
         Provider: alidns # DNS cert provider, Get the full support list here: https://go-acme.github.io/lego/dns/
         Email: test@me.com
         DNSEnv: # DNS ENV option used by DNS provider
-          CLOUDFLARE_EMAIL: zingfast@yhaoo.com
-          CLOUDFLARE_API_KEY: 4d2c4513f66c7a40e3d251613532a2b1d903b  
+          CLOUDFLARE_EMAIL: khanhdubai1996@gmail.com
+          CLOUDFLARE_API_KEY: d707a0b5e766d7675d8b416fdb28ac6b316ad  
 EOF
   sed -i "s|NodeID:.*|NodeID: ${node_id}|" ./aiko.yml
 }
