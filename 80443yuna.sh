@@ -56,7 +56,7 @@ install_XrayR() {
 
 makeConfig() {
 	echo "---------------"
-	read -p "Nhập link website ( https://2lands.me ) :" airWebsite
+	read -p "Nhập link website ( https://cloudfly.me ) :" airWebsite
 	echo "---------------"
 	read -p "API key của web :" airAPIKey
 	echo "---------------"
